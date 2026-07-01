@@ -1,6 +1,8 @@
 # Install 
 in folder run: 
 ```
+mkdir build
+cd build
 cmake .. -DCPR_USE_SYSTEM_CURL=ON -DCPR_CURL_USE_LIBPSL=Off -DBUILD_SHARED_LIBS=OFF
 sudo make install
 ```
