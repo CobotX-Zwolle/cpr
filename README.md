@@ -1,3 +1,11 @@
+# Install 
+in folder run: 
+'''
+cmake .. -DCPR_USE_SYSTEM_CURL=ON -DCPR_CURL_USE_LIBPSL=Off -DBUILD_SHARED_LIBS=OFF
+sudo make install
+'''
+
+
 # C++ Requests: Curl for People <img align="right" height="40" src="http://i.imgur.com/d9Xtyts.png">
 
 [![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)
